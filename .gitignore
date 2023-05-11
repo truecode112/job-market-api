@@ -1,0 +1,18 @@
+# Log files
+*.log
+
+# Dependency directories
+node_modules/
+
+# Test reports
+test_reports/
+
+# Coverage reports
+coverage/
+
+# Local environment variables
+.env
+
+# Jest cache files
+.jest/
+uploads

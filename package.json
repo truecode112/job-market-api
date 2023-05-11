@@ -1,0 +1,28 @@
+{
+  "name": "users-jobs-api",
+  "version": "1.0.0",
+  "description": "API to handle the different types of gamers, guilds and the jobs for Trooper.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Calvin CHIFFOT",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "mime-types": "^2.1.35",
+    "mysql2": "^2.3.3",
+    "nanoid": "^3.3.6",
+    "uuid": "^9.0.0",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
